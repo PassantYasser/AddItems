@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(241, 239, 239);
+}
+.total{
+    padding: 20px 0;
+}
+form {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 50px ;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 20px 120px;
+}
+
+#contentTask{
+    width: 70%;
+    height: 40px;
+    outline: none;
+    color: rgb(150, 145, 145);
+    
+}
+.add{
+    padding: 10px 20px;
+    border-radius: 100px  ;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: rgb(102, 99, 99);
+    color: rgb(180, 178, 178);
+    font-weight: bold;
+}
+.add:hover{
+    background-color: rgb(34, 31, 31);
+}
+.display{
+    border-radius: 20px;
+}
+.divcreate{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color:gray ;
+  border-radius: 120px;
+  margin-bottom: 20px;
+  width: 50%;
+  position: relative;
+  left:330px;
+  color:gainsboro;
+
+}
+.pargcreate{
+    padding: 5px;
+}
+.closebtn{
+    border: none;
+    background-color: rgb(102, 99, 99);
+    border-radius: 100px 20px;
+    padding:2px 6px;
+    cursor: pointer;
+    color: gainsboro;
+}
+.closebtn:hover{
+    background-color: rgb(34, 31, 31);
+}
